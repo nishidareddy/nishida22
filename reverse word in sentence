@@ -1,0 +1,33 @@
+  #include<stdio.h>
+#include<string.h>
+
+void main()
+{
+ /*Visit - www.programmingwithbasics.com*/
+   
+    printf("=====================================");
+    printf("\nVisit - www.programmingwithbasics.com");
+    printf("\n=====================================");
+
+    char str[100];
+    int i,j;
+    
+ puts("\n\nEnter The String Want To Reverse Word By Word:\n");
+    gets(str);
+  printf("\nString After Word By Word Reverse \n\n");
+   
+    strrev(str);
+   
+  for(i=0; str[i]!='\0'; i++)
+    {
+       if(str[i+1]==' ' || str[i+1]==NULL)
+       {
+           for(j=i; j>=0 && str[j]!=' '; j--)
+            printf("%c",str[j]);
+       }
+       else
+       continue;
+       printf(" ");
+    }
+    getch();
+}
