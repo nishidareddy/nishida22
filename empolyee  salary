@@ -1,0 +1,23 @@
+#include <stdio.h>
+struct employee
+{int basic_salary;
+float hra,da,net_salary,la;
+};
+int main()
+{int basic_salary;
+float hra,da,net_salary,la;
+    struct employee e;
+    printf("enter the basic salary:");
+    scanf("%d",&e.basic_salary);
+    printf("enter hra:");
+    scanf("%f",&e.hra);
+    printf("enter da:");
+    scanf("%f",&e.da);
+    printf("enter la:");
+    scanf("%f",&e.la);
+    hra=basic_salary*hra;
+    da=basic_salary*da;
+    net_salary=basic_salary+da-la+hra;
+    printf("the net salary of employee :%f",e.net_salary);
+    return 0;
+}
