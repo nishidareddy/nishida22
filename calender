@@ -1,8 +1,7 @@
 #include<stdio.h>
 
-void main() {
-  /* C Program to Print Calendar of a Month
-   */
+int main() {
+ 
   int i, j, k, day, dt = 1;
 
   printf("C Program to Print a Calendar With Start With Input Day\n\n");
