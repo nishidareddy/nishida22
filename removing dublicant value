@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
- //Ghanendra Yadav
+
   int arr[50];
   int i,j,k,len;
 
