@@ -1,14 +1,11 @@
   #include<stdio.h>
 #include<string.h>
 
-void main()
+int main()
 {
- /*Visit - www.programmingwithbasics.com*/
-   
-    printf("=====================================");
-    printf("\nVisit - www.programmingwithbasics.com");
-    printf("\n=====================================");
 
+   
+    
     char str[100];
     int i,j;
     
@@ -29,5 +26,5 @@ void main()
        continue;
        printf(" ");
     }
-    getch();
+   
 }
