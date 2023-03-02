@@ -28,6 +28,6 @@ main()
  default:
  printf("\n\nWrong Choice.....Try Again!!!\n");
  }
- getch();
+
  return(0);
 }
