@@ -36,5 +36,5 @@ main()
   default:
   printf("Don't Be Smart....Wrong Choice Try Again!!!");
  }
- getch();
+
 }
