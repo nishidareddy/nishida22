@@ -2,7 +2,7 @@
 
 int main() {
 
-  /*C Program to Reverse a Number Using FOR Loop*/
+  
   int number, reminder, reverse = 0;
 
   printf("Enter Any Number to be Reversed :\n");
