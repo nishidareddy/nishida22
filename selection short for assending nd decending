@@ -1,7 +1,7 @@
-#include
+#include <stdio.h>
 int main()
 {
-   //Ghanendra Yadav
+  
   int s,i,j,temp,a[20];
 
   printf("Enter total elements: ");
