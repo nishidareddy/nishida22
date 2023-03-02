@@ -1,9 +1,7 @@
 #include<stdio.h>
-void main()
+int main()
 {
- /*Program By Ghanendra Yadav
-   Visit http://www.programmingwithbasics.com/
-  */
+
 char a;
 int b;
 printf("Enter The Character ");
