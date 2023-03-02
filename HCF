@@ -1,7 +1,7 @@
-#include
+#include <stdio.h>
 int main()
 {
-  //GHANENDRA YADAV
+  
     int num1, num2, i, hcf;
     
  printf("Enter Two Integers :\n");
