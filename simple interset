@@ -2,9 +2,7 @@
 
 int main()
 {
-   /*Program By Ghanendra Yadav
-     Visit http://www.programmingwithbasics.com/
-    */ 
+   
    float amount, rate, time, si;
 
    printf("\nEnter Principal Amount : ");
