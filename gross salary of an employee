@@ -2,9 +2,7 @@
 
 int main()
 {
-          /* Program By Ghanendra Yadav
-    Visit http://www.programmingwithbasics.com/
-    */
+          
   
     float GrossPayment,basic,da,hra,da1,hra1;
 
