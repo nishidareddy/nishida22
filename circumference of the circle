@@ -1,9 +1,7 @@
 #include<stdio.h>
 int main()
 {
-   /*Program By Ghanendra Yadav
-   Visit http://www.programmingwithbasics.com/
-  */
+   
    int rad;
    float PI = 3.14, area, ci;
 
@@ -16,5 +14,5 @@ int main()
    ci = 2 * PI * rad;
    printf("\nCircumference : %f ", ci);
 
-   return0;
+   return 0;
    }
